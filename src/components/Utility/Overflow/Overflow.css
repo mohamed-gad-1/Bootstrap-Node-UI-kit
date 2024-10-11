@@ -1,0 +1,37 @@
+
+.overflow {
+    margin-bottom: 20px;
+}
+
+.overflow .overflow-auto {
+    overflow: auto;
+    width: 200px;
+    height: 100px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.overflow .overflow-hidden {
+    overflow: hidden;
+    width: 200px;
+    height: 100px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.overflow .overflow-visible {
+    overflow: visible;
+    width: 200px;
+    height: 100px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.overflow .overflow-scroll {
+    overflow: scroll;
+    width: 200px;
+    height: 100px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+

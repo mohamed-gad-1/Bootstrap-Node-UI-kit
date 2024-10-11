@@ -1,0 +1,48 @@
+
+.datepicker {
+    position: relative;
+    display: inline-block;
+}
+
+.datepicker input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.datepicker-popup {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 100;
+}
+
+.datepicker-popup.visible {
+    display: block;
+}
+
+.datepicker-popup table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.datepicker-popup th, .datepicker-popup td {
+    text-align: center;
+    padding: 5px;
+}
+
+.datepicker-popup th {
+    background-color: #f7f7f7;
+}
+
+.datepicker-popup td {
+    cursor: pointer;
+}
+
+.datepicker-popup td:hover {
+    background-color: #f7f7f7;
+}
+

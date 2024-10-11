@@ -1,0 +1,10 @@
+
+.signature-pad {
+    margin-bottom: 20px;
+}
+
+.signature-pad canvas {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+

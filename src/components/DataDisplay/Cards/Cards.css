@@ -1,0 +1,28 @@
+
+.cards {
+    margin-bottom: 20px;
+}
+
+.cards .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.cards .card .card-header {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.cards .card .card-body {
+    padding: 20px;
+}
+
+.cards .card .card-footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+

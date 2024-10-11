@@ -1,0 +1,46 @@
+
+.colored-links {
+    margin-bottom: 20px;
+}
+
+.colored-links a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.colored-links a:hover {
+    text-decoration: underline;
+}
+
+.colored-links .link-primary {
+    color: #007bff;
+}
+
+.colored-links .link-secondary {
+    color: #6c757d;
+}
+
+.colored-links .link-success {
+    color: #28a745;
+}
+
+.colored-links .link-danger {
+    color: #dc3545;
+}
+
+.colored-links .link-warning {
+    color: #ffc107;
+}
+
+.colored-links .link-info {
+    color: #17a2b8;
+}
+
+.colored-links .link-light {
+    color: #f8f9fa;
+}
+
+.colored-links .link-dark {
+    color: #343a40;
+}
+

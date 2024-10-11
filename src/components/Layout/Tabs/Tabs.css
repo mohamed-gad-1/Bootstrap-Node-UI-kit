@@ -1,0 +1,30 @@
+
+.tabs {
+    margin-bottom: 20px;
+}
+
+.tabs .tab-list {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+.tabs .tab-list .tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-bottom: none;
+    margin-bottom: -1px;
+}
+
+.tabs .tab-list .tab.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #ccc;
+}
+
+.tabs .tab-content {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+

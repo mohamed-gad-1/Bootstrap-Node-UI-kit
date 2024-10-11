@@ -1,0 +1,10 @@
+
+.color-picker {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.color-picker input[type="color"] {
+    margin-right: 10px;
+}
+

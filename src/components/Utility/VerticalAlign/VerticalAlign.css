@@ -1,0 +1,29 @@
+
+.vertical-align {
+    margin-bottom: 20px;
+}
+
+.vertical-align .align-baseline {
+    vertical-align: baseline;
+}
+
+.vertical-align .align-top {
+    vertical-align: top;
+}
+
+.vertical-align .align-middle {
+    vertical-align: middle;
+}
+
+.vertical-align .align-bottom {
+    vertical-align: bottom;
+}
+
+.vertical-align .align-text-top {
+    vertical-align: text-top;
+}
+
+.vertical-align .align-text-bottom {
+    vertical-align: text-bottom;
+}
+

@@ -1,0 +1,24 @@
+
+.read-more-less {
+    margin-bottom: 20px;
+}
+
+.read-more-less .content {
+    max-height: 100px;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+.read-more-less .content.expanded {
+    max-height: none;
+}
+
+.read-more-less .toggle {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.read-more-less .toggle:hover {
+    text-decoration: underline;
+}
+

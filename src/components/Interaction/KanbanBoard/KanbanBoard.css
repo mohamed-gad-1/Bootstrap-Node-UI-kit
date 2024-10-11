@@ -1,0 +1,25 @@
+
+.kanban-board {
+    display: flex;
+    gap: 20px;
+}
+
+.kanban-column {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.kanban-item {
+    background-color: #f7f7f7;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.kanban-item:hover {
+    background-color: #e7e7e7;
+}
+

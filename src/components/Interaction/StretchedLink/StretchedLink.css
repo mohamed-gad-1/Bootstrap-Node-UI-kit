@@ -1,0 +1,29 @@
+
+.stretched-link {
+    margin-bottom: 20px;
+}
+
+.stretched-link .card {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.stretched-link .card .card-body {
+    padding: 20px;
+}
+
+.stretched-link .card .stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: auto;
+    content: "";
+    background-color: rgba(0, 0, 0, 0);
+}
+

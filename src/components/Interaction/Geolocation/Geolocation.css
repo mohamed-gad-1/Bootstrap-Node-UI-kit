@@ -1,0 +1,11 @@
+
+.geolocation {
+    margin-bottom: 20px;
+}
+
+.geolocation .location-info {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+

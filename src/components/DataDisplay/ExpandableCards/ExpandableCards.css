@@ -1,0 +1,19 @@
+
+.expandable-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.expandable-card-header {
+    background-color: #f7f7f7;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.expandable-card-content {
+    display: none;
+    padding: 10px;
+}
+

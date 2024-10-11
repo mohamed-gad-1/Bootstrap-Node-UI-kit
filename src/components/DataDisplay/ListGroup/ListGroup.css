@@ -1,0 +1,17 @@
+
+.list-group {
+    margin-bottom: 20px;
+}
+
+.list-group .list-group-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.list-group .list-group-item:hover {
+    background-color: #f7f7f7;
+}
+

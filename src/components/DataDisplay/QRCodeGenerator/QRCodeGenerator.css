@@ -1,0 +1,30 @@
+
+.qr-code-generator {
+    margin-bottom: 20px;
+}
+
+.qr-code-generator input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.qr-code-generator button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.qr-code-generator button:hover {
+    background-color: #0056b3;
+}
+
+.qr-code-generator .qr-code {
+    margin-top: 20px;
+    text-align: center;
+}
+

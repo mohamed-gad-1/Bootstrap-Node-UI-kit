@@ -1,0 +1,18 @@
+
+.toolbars {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.toolbars .toolbar-item {
+    cursor: pointer;
+}
+
+.toolbars .toolbar-item:hover {
+    text-decoration: underline;
+}
+

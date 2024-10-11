@@ -1,0 +1,43 @@
+
+.scrollspy {
+    position: relative;
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.scrollspy .nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 10px;
+}
+
+.scrollspy .nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.scrollspy .nav ul li {
+    margin-bottom: 10px;
+}
+
+.scrollspy .nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.scrollspy .nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.scrollspy .content {
+    padding: 20px;
+}
+
+.scrollspy .content h2 {
+    margin-top: 50px;
+}
+

@@ -1,0 +1,26 @@
+
+.button-groups {
+    margin-bottom: 20px;
+}
+
+.button-groups .btn-group {
+    display: inline-flex;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.button-groups .btn-group .btn {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+.button-groups .btn-group .btn:hover {
+    background-color: #e9ecef;
+}
+
+.button-groups .btn-group .btn:not(:last-child) {
+    border-right: none;
+}
+

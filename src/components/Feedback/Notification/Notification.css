@@ -1,0 +1,14 @@
+
+.notification {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.notification.visible {
+    display: block;
+}
+

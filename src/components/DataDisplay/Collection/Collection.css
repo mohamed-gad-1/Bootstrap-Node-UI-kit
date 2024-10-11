@@ -1,0 +1,13 @@
+
+.collection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.collection-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    flex: 1 1 200px;
+}
+

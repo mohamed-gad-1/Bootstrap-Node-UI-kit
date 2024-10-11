@@ -1,0 +1,21 @@
+
+.file-manager {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.file-manager ul {
+    list-style: none;
+    padding: 0;
+}
+
+.file-manager li {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.file-manager li:hover {
+    background-color: #f7f7f7;
+}
+

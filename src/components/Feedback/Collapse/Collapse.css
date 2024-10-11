@@ -1,0 +1,20 @@
+
+.collapse {
+    margin-bottom: 20px;
+}
+
+.collapse .collapse-header {
+    background-color: #f7f7f7;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.collapse .collapse-content {
+    padding: 10px;
+    display: none;
+}
+
+.collapse .collapse-item.open .collapse-content {
+    display: block;
+}
+

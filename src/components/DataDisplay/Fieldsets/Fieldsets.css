@@ -1,0 +1,12 @@
+
+.fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.fieldset legend {
+    font-weight: bold;
+    padding: 0 10px;
+}
+

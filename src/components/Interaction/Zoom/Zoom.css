@@ -1,0 +1,14 @@
+
+.zoom {
+    margin-bottom: 20px;
+}
+
+.zoom .zoom-item {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.zoom .zoom-item:hover {
+    transform: scale(1.1);
+}
+

@@ -1,0 +1,37 @@
+
+.interactions {
+    margin-bottom: 20px;
+}
+
+.interactions .user-select-none {
+    user-select: none;
+}
+
+.interactions .pointer-events-none {
+    pointer-events: none;
+}
+
+.interactions .cursor-pointer {
+    cursor: pointer;
+}
+
+.interactions .cursor-default {
+    cursor: default;
+}
+
+.interactions .cursor-wait {
+    cursor: wait;
+}
+
+.interactions .cursor-text {
+    cursor: text;
+}
+
+.interactions .cursor-move {
+    cursor: move;
+}
+
+.interactions .cursor-not-allowed {
+    cursor: not-allowed;
+}
+

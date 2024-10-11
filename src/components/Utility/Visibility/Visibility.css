@@ -1,0 +1,13 @@
+
+.visibility {
+    margin-bottom: 20px;
+}
+
+.visibility .visible {
+    visibility: visible;
+}
+
+.visibility .invisible {
+    visibility: hidden;
+}
+

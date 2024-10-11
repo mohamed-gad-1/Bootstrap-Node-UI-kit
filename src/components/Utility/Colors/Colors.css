@@ -1,0 +1,46 @@
+
+.colors {
+    margin-bottom: 20px;
+}
+
+.colors .color-box {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.colors .color-primary {
+    background-color: #007bff;
+}
+
+.colors .color-secondary {
+    background-color: #6c757d;
+}
+
+.colors .color-success {
+    background-color: #28a745;
+}
+
+.colors .color-danger {
+    background-color: #dc3545;
+}
+
+.colors .color-warning {
+    background-color: #ffc107;
+}
+
+.colors .color-info {
+    background-color: #17a2b8;
+}
+
+.colors .color-light {
+    background-color: #f8f9fa;
+}
+
+.colors .color-dark {
+    background-color: #343a40;
+}
+

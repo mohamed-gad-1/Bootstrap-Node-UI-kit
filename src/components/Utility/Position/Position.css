@@ -1,0 +1,42 @@
+
+.position {
+    margin-bottom: 20px;
+}
+
+.position .position-static {
+    position: static;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.position .position-relative {
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 10px;
+    top: 20px;
+    left: 20px;
+}
+
+.position .position-absolute {
+    position: absolute;
+    border: 1px solid #ccc;
+    padding: 10px;
+    top: 20px;
+    right: 20px;
+}
+
+.position .position-fixed {
+    position: fixed;
+    border: 1px solid #ccc;
+    padding: 10px;
+    bottom: 20px;
+    right: 20px;
+}
+
+.position .position-sticky {
+    position: sticky;
+    border: 1px solid #ccc;
+    padding: 10px;
+    top: 20px;
+}
+

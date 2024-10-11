@@ -1,0 +1,14 @@
+
+.text-truncation {
+    margin-bottom: 20px;
+}
+
+.text-truncation .text-truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+

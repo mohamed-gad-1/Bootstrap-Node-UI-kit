@@ -1,0 +1,21 @@
+
+.float {
+    margin-bottom: 20px;
+}
+
+.float .float-left {
+    float: left;
+    margin-right: 10px;
+}
+
+.float .float-right {
+    float: right;
+    margin-left: 10px;
+}
+
+.float .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+

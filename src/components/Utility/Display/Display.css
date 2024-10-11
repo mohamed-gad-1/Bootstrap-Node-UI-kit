@@ -1,0 +1,29 @@
+
+.display {
+    margin-bottom: 20px;
+}
+
+.display .d-none {
+    display: none;
+}
+
+.display .d-inline {
+    display: inline;
+}
+
+.display .d-inline-block {
+    display: inline-block;
+}
+
+.display .d-block {
+    display: block;
+}
+
+.display .d-flex {
+    display: flex;
+}
+
+.display .d-inline-flex {
+    display: inline-flex;
+}
+

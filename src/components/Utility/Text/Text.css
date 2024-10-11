@@ -1,0 +1,37 @@
+
+.text {
+    margin-bottom: 20px;
+}
+
+.text .text-primary {
+    color: #007bff;
+}
+
+.text .text-secondary {
+    color: #6c757d;
+}
+
+.text .text-success {
+    color: #28a745;
+}
+
+.text .text-danger {
+    color: #dc3545;
+}
+
+.text .text-warning {
+    color: #ffc107;
+}
+
+.text .text-info {
+    color: #17a2b8;
+}
+
+.text .text-light {
+    color: #f8f9fa;
+}
+
+.text .text-dark {
+    color: #343a40;
+}
+

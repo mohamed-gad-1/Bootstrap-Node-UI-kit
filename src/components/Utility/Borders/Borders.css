@@ -1,0 +1,43 @@
+
+.borders {
+    margin-bottom: 20px;
+}
+
+.borders .border {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.borders .border-primary {
+    border-color: #007bff;
+}
+
+.borders .border-secondary {
+    border-color: #6c757d;
+}
+
+.borders .border-success {
+    border-color: #28a745;
+}
+
+.borders .border-danger {
+    border-color: #dc3545;
+}
+
+.borders .border-warning {
+    border-color: #ffc107;
+}
+
+.borders .border-info {
+    border-color: #17a2b8;
+}
+
+.borders .border-light {
+    border-color: #f8f9fa;
+}
+
+.borders .border-dark {
+    border-color: #343a40;
+}
+

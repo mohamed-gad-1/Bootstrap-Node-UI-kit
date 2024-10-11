@@ -1,0 +1,26 @@
+
+.popovers {
+    margin-bottom: 20px;
+}
+
+.popovers .popover {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.popovers .popover-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    z-index: 1;
+}
+
+.popovers .popover:hover .popover-content {
+    display: block;
+}
+

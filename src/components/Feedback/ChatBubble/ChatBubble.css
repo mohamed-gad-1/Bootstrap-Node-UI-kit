@@ -1,0 +1,25 @@
+
+.chat-bubble {
+    margin-bottom: 20px;
+}
+
+.chat-bubble .bubble {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    max-width: 70%;
+    clear: both;
+}
+
+.chat-bubble .bubble.left {
+    float: left;
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.chat-bubble .bubble.right {
+    float: right;
+}
+

@@ -1,0 +1,61 @@
+
+.background {
+    margin-bottom: 20px;
+}
+
+.background .bg-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.background .bg-secondary {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.background .bg-success {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.background .bg-danger {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.background .bg-warning {
+    background-color: #ffc107;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.background .bg-info {
+    background-color: #17a2b8;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.background .bg-light {
+    background-color: #f8f9fa;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.background .bg-dark {
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+

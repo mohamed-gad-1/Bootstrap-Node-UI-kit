@@ -1,0 +1,25 @@
+
+.select {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.select select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    appearance: none;
+    background-color: white;
+}
+
+.select::after {
+    content: '▼';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+

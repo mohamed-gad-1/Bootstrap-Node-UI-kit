@@ -1,0 +1,16 @@
+{
+  "name": "bootstrap-node-ui-kit",
+  "version": "1.0.0",
+  "description": "## Table of Contents 1. [Introduction](#introduction) 2. [Executive Summary](#executive-summary) 3. [Importance of Creating a Bootstrap Node UI Kit](#importance-of-creating-a-bootstrap-ui-kit) 4. [Getting Started](#getting-started) 5. [Contributing](#contributing) 6. [License](#license)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}

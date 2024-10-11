@@ -1,0 +1,42 @@
+
+.price-table {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.price-table .header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.price-table .body {
+    padding: 20px;
+    text-align: center;
+}
+
+.price-table .body ul {
+    list-style: none;
+    padding: 0;
+}
+
+.price-table .body ul li {
+    margin-bottom: 10px;
+}
+
+.price-table .body button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.price-table .body button:hover {
+    background-color: #0056b3;
+}
+

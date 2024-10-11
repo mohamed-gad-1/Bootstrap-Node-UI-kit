@@ -1,0 +1,13 @@
+
+.typography {
+    margin-bottom: 20px;
+}
+
+.typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
+    margin-bottom: 10px;
+}
+
+.typography p {
+    margin-bottom: 20px;
+}
+

@@ -1,0 +1,30 @@
+
+.offcanvas {
+    margin-bottom: 20px;
+}
+
+.offcanvas .offcanvas-toggle {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.offcanvas .offcanvas-content {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    border-left: 1px solid #ccc;
+    transition: right 0.3s ease-in-out;
+    padding: 20px;
+}
+
+.offcanvas .offcanvas-content.open {
+    right: 0;
+}
+

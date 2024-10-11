@@ -1,0 +1,41 @@
+
+.timeline {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #ccc;
+    left: 50%;
+    margin-left: -1px;
+}
+
+.timeline .event {
+    position: relative;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.timeline .event::before {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #007bff;
+    border-radius: 50%;
+    margin-left: -5px;
+}
+
+.timeline .event .content {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+}
+

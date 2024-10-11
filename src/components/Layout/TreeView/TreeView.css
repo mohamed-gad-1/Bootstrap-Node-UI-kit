@@ -1,0 +1,22 @@
+
+.tree-view {
+    margin-bottom: 20px;
+}
+
+.tree-view ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.tree-view li {
+    cursor: pointer;
+}
+
+.tree-view li.has-children > ul {
+    display: none;
+}
+
+.tree-view li.has-children.open > ul {
+    display: block;
+}
+

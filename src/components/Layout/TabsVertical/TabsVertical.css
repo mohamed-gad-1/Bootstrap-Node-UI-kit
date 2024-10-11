@@ -1,0 +1,33 @@
+
+.tabs-vertical {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tabs-vertical .tab-list {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #ccc;
+}
+
+.tabs-vertical .tab-list .tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-right: none;
+    margin-right: -1px;
+}
+
+.tabs-vertical .tab-list .tab.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #ccc;
+}
+
+.tabs-vertical .tab-content {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-left: none;
+    flex: 1;
+}
+

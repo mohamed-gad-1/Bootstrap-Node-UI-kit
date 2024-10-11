@@ -1,0 +1,13 @@
+
+.masonry-layout {
+    column-count: 3;
+    column-gap: 1em;
+}
+
+.masonry-item {
+    background-color: #f7f7f7;
+    padding: 1em;
+    margin-bottom: 1em;
+    break-inside: avoid;
+}
+

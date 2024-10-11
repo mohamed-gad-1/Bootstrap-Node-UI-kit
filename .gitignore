@@ -1,3 +1,7 @@
+# Scripts
+*.sh
+*.bat
+
 # Logs
 logs
 *.log

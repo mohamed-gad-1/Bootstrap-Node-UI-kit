@@ -1,0 +1,12 @@
+
+.pdf-viewer {
+    margin-bottom: 20px;
+}
+
+.pdf-viewer iframe {
+    width: 100%;
+    height: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+

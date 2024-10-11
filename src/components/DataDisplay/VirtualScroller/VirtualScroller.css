@@ -1,0 +1,14 @@
+
+.virtual-scroller {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.virtual-scroller .item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
